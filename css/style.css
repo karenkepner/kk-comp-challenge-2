@@ -1,0 +1,94 @@
+/*kk-comp-challenge-2*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#main-container {
+  height: 100%;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4E453C;
+  color: #FFF;
+}
+
+#login h3 {
+  display: inline;
+  margin: 5px 10px;
+}
+
+.mtnbktrl-logo {
+  margin: 15px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+nav ul li h4 {
+  display: none;
+}
+
+/*card section css*/
+#item-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.item {
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 1px 5px 2px grey;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.item-image {
+  background: grey url('../images/hidden-mesa-bike.jpg') no-repeat;
+  background-size: cover;
+  background-blend-mode: screen;
+  min-height: 180px;
+}
+
+.item-image:hover {
+  background-blend-mode: initial;
+}
+
+.arrow-icon {
+  background-color: #4E453C;
+  border-radius: 40px;
+  margin: 10px;
+  padding: 2px;
+}
+
+.item-detail {
+  padding: 0 10px;
+}
+.counter {
+  display: block;
+  float: right;
+  clear: right;
+  margin: 5px 10px;
+  padding: 1px;
+}
+
+h1.counter {
+  margin-right: 20px;
+}
+
+#video-link {
+  background-color: grey;
+  padding: 20px;
+  margin: 10px ;
+}
