@@ -11,7 +11,7 @@ body {
   height: 100%;
 }
 
-#header {
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 #login h3 {
-  display: inline;
+  /*display: inline;*/
   margin: 5px 10px;
 }
 
@@ -43,13 +43,14 @@ nav ul li h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   width: 100%;
   padding: 10px 0px;
 }
 
 .item {
   /* offset-x | offset-y | blur-radius | color */
-  box-shadow: 1px 5px 2px grey;
+  box-shadow: 3px 3px 2px grey;
   width: 80%;
   margin-bottom: 10px;
 }
@@ -75,6 +76,7 @@ nav ul li h4 {
 .item-detail {
   padding: 0 10px;
 }
+
 .counter {
   display: block;
   float: right;
@@ -89,6 +91,56 @@ h1.counter {
 
 #video-link {
   background-color: grey;
-  padding: 20px;
-  margin: 10px ;
+  padding: 10px;
+  margin: 5px ;
+}
+
+@media screen and (min-width: 600px) {
+
+  header {
+    display: inline-block;
+    width: 100%;
+  }
+  #login {
+    min-height: 40px;
+
+ }
+
+  #login h3 {
+    float: right;
+  }
+
+  .mtnbktrl-logo {
+    float: right;
+    width: 130px;
+    margin-right: 20px;
+   }
+
+  nav ul li h4 {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  #item-zone {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-around;
+  }
+
+  .item {
+    flex: 0 0 32.5%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  #item-zone {
+    height: 80vh;
+  }
+  .item {
+    flex: 0 0 24%;
+  }
+
 }
