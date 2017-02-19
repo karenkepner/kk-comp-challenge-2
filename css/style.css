@@ -37,7 +37,9 @@ nav ul li {
 nav ul li h4 {
   display: none;
 }
-
+.main-section-title {
+  margin-left: 2%;
+}
 /*card section css*/
 #item-zone {
   display: flex;
