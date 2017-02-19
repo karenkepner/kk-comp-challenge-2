@@ -43,7 +43,6 @@ nav ul li h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   width: 100%;
   padding: 10px 0px;
 }
@@ -51,26 +50,65 @@ nav ul li h4 {
 .item {
   /* offset-x | offset-y | blur-radius | color */
   box-shadow: 3px 3px 2px grey;
-  width: 80%;
+  width: 70%;
   margin-bottom: 10px;
+  height: 450px;
 }
 
 .item-image {
-  background: grey url('../images/hidden-mesa-bike.jpg') no-repeat;
-  background-size: cover;
   background-blend-mode: screen;
-  min-height: 180px;
+  height: 150px;
 }
 
 .item-image:hover {
   background-blend-mode: initial;
 }
 
+.image01 {
+  background: grey url('../images/hidden-mesa-bike.jpg') no-repeat;
+  background-size: cover;
+}
+
+.image02 {
+  background: grey url('../images/kenosha-pass.jpg') no-repeat;
+  background-size: cover;
+}
+
+.image03 {
+  background: grey url('../images/slick-rock-view.jpg') no-repeat;
+  background-size: cover;
+}
+
+.image04 {
+  background: grey url('../images/grand-j.jpg') no-repeat;
+  background-size: cover;
+}
+
+.image05 {
+  background: grey url('../images/foat-real-feelings.jpg') no-repeat;
+  background-size: cover;
+}
+
+.image06 {
+  background: grey url('../images/knoshe-pass-2.jpg') no-repeat;
+  background-size: cover;
+}
+
+.image07 {
+  background: grey url('../images/trail-01.jpg') no-repeat;
+  background-size: cover;
+}
+
+.image08 {
+  background: grey url('../images/slick-rock-trail.jpg') no-repeat;
+  background-size: cover;
+}
+
 .arrow-icon {
   background-color: #4E453C;
   border-radius: 40px;
   margin: 10px;
-  padding: 2px;
+  padding: 3px;
 }
 
 .item-detail {
