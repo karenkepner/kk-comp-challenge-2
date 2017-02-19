@@ -133,7 +133,7 @@ h1.counter {
   margin: 5px ;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 620px) {
 
   header {
     display: inline-block;
@@ -141,7 +141,6 @@ h1.counter {
   }
   #login {
     min-height: 40px;
-
  }
 
   #login h3 {
@@ -164,7 +163,7 @@ h1.counter {
     flex-direction: row;
     flex-wrap: wrap;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: space-around left;
   }
 
   .item {
@@ -176,6 +175,7 @@ h1.counter {
 
   #item-zone {
     height: 80vh;
+    justify-content: space-around;
   }
   .item {
     flex: 0 0 24%;
