@@ -28,18 +28,26 @@ header {
   margin: 15px;
 }
 
+#main-nav ul {
+  display: flex;
+  align-items: center;
+}
+
 nav ul li {
+  align-items: center;
   list-style: none;
-  display: inline-block;
   margin: 5px 15px;
 }
 
-nav ul li h4 {
+li span {
   display: none;
+  margin: 5px;
 }
+
 .main-section-title {
   margin-left: 2%;
 }
+
 /*card section css*/
 #item-zone {
   display: flex;
@@ -135,15 +143,20 @@ h1.counter {
   margin: 5px ;
 }
 
+
 @media screen and (min-width: 620px) {
 
   header {
     display: inline-block;
     width: 100%;
   }
+
   #login {
     min-height: 40px;
- }
+    width: 30%;
+    display: inline-block;
+    float: right;
+  }
 
   #login h3 {
     float: right;
@@ -155,10 +168,26 @@ h1.counter {
     margin-right: 20px;
    }
 
-  nav ul li h4 {
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 0px;
+  nav {
+   /*width: 60%;*/
+   /*display: inline-block;*/
+  }
+
+  nav li {
+   /*margin-top: 90px ;*/
+   display: flex;
+  }
+
+
+  .nav-title {
+    /*display: inline-block;*/
+    /*height: 30px;*/
+    width: 30%;
+  }
+
+  img {
+    /*padding-top: 10px;*/
+    /*margin-top: 10px;*/
   }
 
   #item-zone {
