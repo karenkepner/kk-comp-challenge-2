@@ -19,24 +19,38 @@ header {
   color: #FFF;
 }
 
+#login {
+  width: 200px;
+}
+
+#login img {
+  display: inline-block;
+}
+
 #login h3 {
-  /*display: inline;*/
+  display: inline-block;
   margin: 5px 10px;
 }
 
 .mtnbktrl-logo {
+  display: inline-block;
   margin: 15px;
 }
 
 #main-nav ul {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 nav ul li {
   align-items: center;
   list-style: none;
   margin: 5px 15px;
+}
+
+li img {
+  margin: 0px 10px;
 }
 
 li span {
@@ -140,7 +154,9 @@ h1.counter {
 #video-link {
   background-color: grey;
   padding: 10px;
-  margin: 5px ;
+  margin: 5px;
+  font-size: .8em;
+  text-decoration: underline;
 }
 
 
@@ -151,14 +167,14 @@ h1.counter {
     width: 100%;
   }
 
-  #login {
-    min-height: 40px;
-    width: 30%;
-    display: inline-block;
-    float: right;
+  #main-nav {
+    margin-top: 100px;
   }
 
-  #login h3 {
+  #login {
+    min-height: 40px;
+    /*width: 30%;*/
+    display: inline-block;
     float: right;
   }
 
@@ -168,26 +184,19 @@ h1.counter {
     margin-right: 20px;
    }
 
-  nav {
-   /*width: 60%;*/
-   /*display: inline-block;*/
-  }
-
   nav li {
-   /*margin-top: 90px ;*/
-   display: flex;
+    margin-top: 90px ;
+    display: flex;
   }
 
+  li span {
+    margin: 5px;
+    display: block;
+  }
 
   .nav-title {
-    /*display: inline-block;*/
-    /*height: 30px;*/
+    display: inline-block;
     width: 30%;
-  }
-
-  img {
-    /*padding-top: 10px;*/
-    /*margin-top: 10px;*/
   }
 
   #item-zone {
