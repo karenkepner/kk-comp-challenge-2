@@ -173,7 +173,7 @@ h1.counter {
    /*display: inline-block;*/
   }
 
-  li {
+  nav li {
    /*margin-top: 90px ;*/
    display: flex;
   }
